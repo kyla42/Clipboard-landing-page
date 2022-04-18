@@ -157,7 +157,7 @@ p {
 }
 
 .logo_image {
-    padding: 5rem;
+    padding: 5rem 0 4rem 0;
 }
 
 .head_desc {
@@ -196,6 +196,7 @@ p {
 .box {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
 }
 
 .box_sm {
@@ -284,7 +285,7 @@ p {
 
 .company_logos {
     width: 108rem;
-    padding: 13.5rem 0 4.5rem 0;
+    padding: 13.5rem 0 4rem 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
