@@ -115,6 +115,10 @@ p {
         text-align: center;
     }
 
+    body {
+        overflow-x: hidden;
+    }
+
     .container {
         width: 37.5rem;
         height: auto;
