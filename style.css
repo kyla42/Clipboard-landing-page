@@ -33,12 +33,18 @@ a {
     font-weight: 400;
 }
 
+a:hover {
+    color: var(--Strong_Cyan);
+}
+
 h1 {
     font-size: 4.4rem;
 }
 
-a:hover {
-    color: var(--Strong_Cyan);
+h2 {
+    font-weight: 600;
+    font-size: 3.5rem;
+    padding: 1.8rem;
 }
 
 /* reusable */
@@ -53,15 +59,10 @@ a:hover {
     overflow: hidden;
 }
 
-.title {
-    font-weight: 600;
-    font-size: 3.5rem;
-    padding: 1.8rem;
-}
-
 .title_sm {
     font-size: 2.4rem;
     padding-bottom: 1rem;
+    font-weight: 600;
 }
 
 .desc {
@@ -119,10 +120,6 @@ p {
         padding: 7rem 3rem 2rem 3rem;
     }
 
-    .title {
-        font-size: 2.7rem;
-    }
-
     .title_sm {
         font-size: 2.4rem;
     }
@@ -145,6 +142,10 @@ p {
 
     h1 {
         font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2.7rem;
     }
 }
 
